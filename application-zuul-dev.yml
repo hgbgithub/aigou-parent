@@ -1,0 +1,13 @@
+server:
+  port: 2000
+spring:
+  application:
+    name: zuul-server
+
+zuul:
+  ignoredServices: '*' #忽略所有的请求，必须按照指定的前缀和路径才能访问
+  routes:
+    plat:
+      path: /plat/** #平台服务的请求路径
+      serviceId: plat-service
+  prefix: /services #请求前缀
