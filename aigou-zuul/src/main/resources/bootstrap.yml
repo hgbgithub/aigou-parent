@@ -1,0 +1,18 @@
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:1000/eureka/
+  instance:
+    prefer-ip-address: true #使用ip注册到eureka服务列表
+
+#指向配置中心
+spring:
+  cloud:
+    config:
+      uri: http://localhost:4000  #配置中心地址
+      label: master   #主分支
+      profile: dev #环境
+      name:  application-zuul  #配置文件的名字
+      discovery:
+        enabled: true #从eureka上面找配置服务
+        service-id: SPRING-CLOUD-CONFIG-SERVER #指定服务名
