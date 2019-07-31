@@ -2,4 +2,4 @@ server:
   port: 5000
 spring:
   application:
-    name: plat-service
+    name: product-service
