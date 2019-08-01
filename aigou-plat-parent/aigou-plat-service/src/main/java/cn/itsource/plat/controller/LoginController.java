@@ -2,7 +2,6 @@ package cn.itsource.plat.controller;
 
 import cn.itsource.domain.User;
 import cn.itsource.util.AjaxResult;
-import org.bouncycastle.cms.RecipientId;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
