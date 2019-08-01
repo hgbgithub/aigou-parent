@@ -3,13 +3,13 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>aigou-plat-parent</artifactId>
+        <artifactId>aigou-product-parent</artifactId>
         <groupId>cn.itsource</groupId>
         <version>1.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>aigou-plat-service</artifactId>
+    <artifactId>aigou-product-service</artifactId>
 
     <dependencies>
 
@@ -50,6 +50,7 @@
             <version>2.9.2</version>
         </dependency>
 
+
         <!--配置中心客户端-->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
@@ -68,4 +69,6 @@
             <version>5.1.6</version>
         </dependency>
     </dependencies>
+
+
 </project>
