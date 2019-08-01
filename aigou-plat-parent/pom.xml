@@ -16,5 +16,11 @@
         <module>aigou-plat-service</module>
     </modules>
 
-
+    <dependencies>
+        <dependency>
+            <groupId>cn.itsource</groupId>
+            <artifactId>aigou-plat-interface</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
 </project>
